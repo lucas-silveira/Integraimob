@@ -1,0 +1,63 @@
+*, body{
+	box-sizing: border-box;
+}
+
+.hidden{
+	display: none;
+}
+
+#content{
+	padding: 10px 20px;
+	background-color: #fff;
+}
+
+.legenda{
+	font-style: italic;
+}
+
+.btn-export, .btn-export:visited, .btn-export:link{
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-weight: 500;
+	background-color: #28a745;
+	border-color: #c3e6cb;
+	padding: .75rem 1.25rem;
+	border-radius: .25rem;
+	border: 1px solid #bcd8c3;
+	transition: all 700ms;
+}
+
+.btn-export:hover{
+	color: #fff;
+	background-color: #1b8533;
+}
+
+/* Spaces */
+
+.space-20{
+	display: block;
+	height: 20px;
+}
+
+.space-40{
+	display: block;
+	height: 40px;
+}
+
+.space-60{
+	display: block;
+	height: 60px;
+}
+
+.space-80{
+	display: block;
+	height: 80px;
+}
+
+.space-100{
+	display: block;
+	height: 100px;
+}
